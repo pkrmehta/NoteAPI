@@ -14,7 +14,7 @@ const NoteSchema = mongoose.Schema({
 
     priority: {
         type: String,
-        requires: true
+        required: true
     },
 
     userId : {
