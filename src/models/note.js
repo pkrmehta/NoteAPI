@@ -12,6 +12,11 @@ const NoteSchema = mongoose.Schema({
         required : true
     },
 
+    priority: {
+        type: String,
+        requires: true
+    },
+
     userId : {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
